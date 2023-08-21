@@ -11,6 +11,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: nginx-example/app.yml
+    path: nginx-example
     repoURL: https://github.com/Proxypepe/argocd-exploring.git
     targetRevision: HEAD
