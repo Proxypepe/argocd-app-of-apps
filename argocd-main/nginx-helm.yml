@@ -12,7 +12,8 @@ spec:
     server: https://kubernetes.default.svc  
   source:
     chart: mychart 
+    path: mychart
     repoURL: https://github.com/Proxypepe/argocd-exploring.git
     targetRevision: HEAD
     helm:
-      releaseName: nginxt_by_helm
+      releaseName: ngint_by_helm
